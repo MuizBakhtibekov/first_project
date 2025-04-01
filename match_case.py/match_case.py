@@ -1,3 +1,4 @@
+''''Пример работы с match case.'''
 def http_error(status):
     match status:
         case 400:
@@ -10,3 +11,4 @@ def http_error(status):
             return "Something's wrong with the internet"
 if __name__ =='__main__':
     print(http_error(418))
+    pass
